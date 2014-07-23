@@ -1,0 +1,147 @@
+id: 13-1.0-5.r16/0
+type: file
+pred: 13-1.0.r3/5900
+count: 2
+text: 9 400 2221 9949 ea23913ce3c4aba20fd0c6821186525c 041a08274b1a9e291eb0be99e3898b4794be31b1 15-f/_5
+cpath: /project/branches/g1701/src/cs296_base.hpp
+copyroot: 5 /project/branches/g1701
+
+PLAIN
+K 13
+callbacks.cpp
+V 21
+file r-1.0.r1/3030303
+K 13
+callbacks.hpp
+V 21
+file x-1.0.r1/3030506
+K 14
+cs296_base.cpp
+V 21
+file v-1.0.r1/3030709
+K 14
+cs296_base.hpp
+V 19
+file 13-1.0-5.r16/0
+K 11
+dominos.cpp
+V 18
+file m-1.0.r3/6122
+K 11
+dominos.hpp
+V 21
+file p-1.0.r1/3031320
+K 8
+main.cpp
+V 21
+file z-1.0-5.r12/1382
+K 10
+render.cpp
+V 21
+file t-1.0.r1/3031719
+K 10
+render.hpp
+V 22
+file 11-1.0.r1/3031919
+END
+ENDREP
+id: l-1.0-5.r16/664
+type: dir
+pred: l-1.0-5.r12/2039
+count: 3
+text: 16 251 400 400 3e988389079e66df919ec316ed8edc14
+cpath: /project/branches/g1701/src
+copyroot: 5 /project/branches/g1701
+
+PLAIN
+K 8
+Makefile
+V 18
+file 4-1.0.r2/2122
+K 13
+Makefile.orig
+V 18
+file 2-2.0.r2/2332
+K 3
+doc
+V 18
+dir h-1.0.r4/20509
+K 8
+external
+V 20
+dir 7-1.0-5.r12/1187
+K 3
+src
+V 19
+dir l-1.0-5.r16/664
+END
+ENDREP
+id: 2-1.0-5.r16/1053
+type: dir
+pred: 2-1.0-5.r12/2428
+count: 6
+text: 16 852 188 188 e323468990de2d06b374be1d7449d40c
+cpath: /project/branches/g1701
+copyroot: 5 /project/branches/g1701
+
+PLAIN
+K 5
+g1701
+V 20
+dir 2-1.0-5.r16/1053
+K 5
+g1702
+V 20
+dir 2-1.0-6.r11/2440
+K 5
+g1703
+V 20
+dir 2-1.0-7.r13/2422
+END
+ENDREP
+id: 1-5.0.r16/1363
+type: dir
+pred: 1-5.0.r13/2729
+count: 8
+text: 16 1238 112 112 c799b5565c85625f243d36c1213447fa
+cpath: /project/branches
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 18
+dir 1-5.0.r16/1363
+K 5
+trunk
+V 17
+dir 2-1.0.r15/979
+END
+ENDREP
+id: 0-1.0.r16/1604
+type: dir
+pred: 0-1.0.r15/1215
+count: 15
+text: 16 1517 74 74 a0f6bedba018c173727c53f02900eccb
+cpath: /project
+copyroot: 0 /
+
+PLAIN
+K 7
+project
+V 18
+dir 0-1.0.r16/1604
+END
+ENDREP
+id: 0.0.r16/1801
+type: dir
+pred: 0.0.r15/1412
+count: 16
+text: 16 1748 40 40 fdf7da1ba5394ba30429ed6fdd84bfff
+cpath: /
+copyroot: 0 /
+
+13-1.0-5.t15-f modify-file true false /project/branches/g1701/src/cs296_base.hpp
+
+
+1801 1934

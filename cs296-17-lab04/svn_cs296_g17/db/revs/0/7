@@ -1,0 +1,69 @@
+id: 2-1.0-7.r7/0
+type: dir
+pred: 2-1.0.r4/20865
+count: 4
+text: 4 20666 186 186 c808bd1d99859e892714d5e96bac78d2
+cpath: /project/branches/g1703
+copyfrom: 6 /project/trunk
+
+PLAIN
+K 5
+g1701
+V 16
+dir 2-1.0-5.r5/0
+K 5
+g1702
+V 16
+dir 2-1.0-6.r6/0
+K 5
+g1703
+V 16
+dir 2-1.0-7.r7/0
+END
+ENDREP
+id: 1-5.0.r7/284
+type: dir
+pred: 1-5.0.r6/252
+count: 2
+text: 7 171 100 100 ed00ea692ddc87f1e386a4b55ceb2c92
+cpath: /project/branches
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 16
+dir 1-5.0.r7/284
+K 5
+trunk
+V 18
+dir 2-1.0.r4/20865
+END
+ENDREP
+id: 0-1.0.r7/518
+type: dir
+pred: 0-1.0.r6/484
+count: 6
+text: 7 432 73 73 8e76e1931d8303001bff04058e5c83b6
+cpath: /project
+copyroot: 0 /
+
+PLAIN
+K 7
+project
+V 16
+dir 0-1.0.r7/518
+END
+ENDREP
+id: 0.0.r7/706
+type: dir
+pred: 0.0.r6/672
+count: 7
+text: 7 655 38 38 60714f9a769d89dba29fcbe8e1cdc6b8
+cpath: /
+copyroot: 0 /
+
+2-1._0.t6-6 add-dir false false /project/branches/g1703
+6 /project/trunk
+
+706 832

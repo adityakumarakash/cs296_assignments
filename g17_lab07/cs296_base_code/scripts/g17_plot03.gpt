@@ -1,0 +1,10 @@
+set title "Plot of Step time with error bars" 
+set ylabel 'Time in Miliseconds'
+set xlabel 'No of Iteration'
+set datafile separator ","
+set terminal png
+set output './plots/g17_plot03.png'
+plot './data/temp.csv' using 1:2:3 smooth unique  title "errorbars" with yerrorbars ,\
+ './data/temp.csv' using 1:2 smooth unique title "line for step time" with line
+unset xlabel
+unset ylabel

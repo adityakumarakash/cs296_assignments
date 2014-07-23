@@ -1,0 +1,21 @@
+set title "Plot of Best fit line for step time over all data and random data" 
+set ylabel 'Time in Miliseconds'
+set xlabel 'No of Iteration'
+set datafile separator ","
+set terminal png
+set output './plots/g17_plot05.png'
+
+f(x) = m*x + b
+fit f(x) './data/g17_lab05data_02.csv' using 1:3 via m,b
+
+g(x) = p*x + q
+fit g(x) './data/g17_lab05data_random.csv' using 1:3 via p,q
+
+plot './data/g17_lab05data_02.csv' using 1:3 smooth unique with points title "step time averaged over all data",\
+f(x) title "Best Fit Line for all data",\
+'./data/g17_lab05data_random.csv' using 1:3 smooth unique with points title "step time averaged random data",\
+ g(x) title "Best Fit Line for random data"
+
+unset xlabel
+unset ylabel
+

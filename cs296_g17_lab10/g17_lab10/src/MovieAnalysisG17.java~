@@ -1,0 +1,57 @@
+import java.io.*;
+import java.util.*;
+import cs296MovieAnalysis.Movie;
+import cs296MovieAnalysis.MovieStatistics;
+import cs296MovieAnalysis.MovieStatistics;
+import cs296MovieAnalysis.FindActors;
+import cs296MovieAnalysis.FindGenre;
+
+/**
+ * This class is the class with the main method which performs the job of taling the input the performing all 
+ * operations on the script.
+ */
+class MovieAnalysisG17
+{
+	/**
+	 * The main method which takes the input and finds all the related information.
+	 */
+	public static void main(String[] args)
+	{
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		try
+		{
+			System.out.println("Enter the name and path of the script file :- ");
+			String filename;
+			filename=br.readLine();
+			
+			Movie movie=new Movie(filename);
+			System.out.println("\nThe movie title is -");
+			movie.printMovieTitle();
+			System.out.println("The movie author is -");
+			movie.printMovieAuthor();
+			
+			MovieStatistics stats=new MovieStatistics(movie);
+			System.out.println("\nThe characters with the number of occurences are -");
+			stats.printCharCounts();
+			System.out.println("\nThe characters with the number of occurences and gender are -");
+			stats.printCharCountsWithGender();
+			
+			FindActors actor=new FindActors(stats);
+			System.out.println("\nThe hero is -");
+			actor.findHero();
+			System.out.println("The heroine is -");
+			actor.findHeroine();
+			System.out.println("The villain is -");
+			actor.findVillain();
+			
+			FindGenre genre=new FindGenre(movie);
+			System.out.println("\nThe genre of the movie -");
+			genre.findGenre();
+			
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+}
